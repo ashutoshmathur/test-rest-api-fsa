@@ -1,0 +1,25 @@
+{
+    "name": "menv",
+    "version": "1.0.0",
+    "description": "A full stack web app built with node.js, express.js, mongodb and vue.js",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "full stack web app",
+        "node.js",
+        "express.js",
+        "mongodb",
+        "vue.js"
+    ],
+    "author": "Ashutosh Mathur",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.1",
+        "express": "^4.15.4",
+        "mongoose": "^4.11.11",
+        "multer": "^1.3.0"
+    }
+}
